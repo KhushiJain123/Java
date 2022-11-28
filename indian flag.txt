@@ -1,0 +1,30 @@
+import java.applet.Applet;
+import java.awt.*;
+public class Flag extends Applet
+{
+public void pain(Graphics g)
+{
+g.drawRect(20,20,10,300);
+
+g.SetColor(Color.orange);
+g.fillRect(30,20,90,20);
+g.setColor(COlor.white);
+g.fillREct(30,40,90,20);
+
+
+g.setColor(COlor.green);
+g.fillREct(30,60,90,20);
+
+g.setColor(COlor.black);
+g.fillREct(30,20,90,20);
+
+g.setColor(COlor.black);
+g.fillREct(30,40,90,20);
+
+g.setColor(COlor.black);
+g.fillREct(30,60,90,20);
+
+g.setColor(COlor.blue);
+g.fillOval(68,43,14,14);
+}
+}
