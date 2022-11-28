@@ -1,0 +1,22 @@
+import java.util.Scanner;
+final clas finalclass
+{
+public void display()
+{
+System.out.println("This is afinal Method");
+}
+}
+class Main extends finalclass
+{
+public void display()
+{
+System.out.println("The final method is overridden");
+}
+public class final_class
+{
+public static void main(String args[])
+{
+Main obj=new Main();
+obj.display();
+}
+}
