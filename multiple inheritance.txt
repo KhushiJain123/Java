@@ -1,0 +1,29 @@
+import jav,util.Scanner;
+interface demo
+{
+   void show();
+}
+class demo1
+{
+int a,b;
+void read()
+{
+a=10;
+b=20;
+}
+}
+class demo2  extends demo1 implements demo
+{
+public void show()
+{
+System.out.println(a+b);
+}
+class Multiple 
+{
+public static void main(String args[])
+{
+demo d1=new demo2();
+d1.read()
+d1.show()
+}
+}
